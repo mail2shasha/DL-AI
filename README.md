@@ -3,6 +3,7 @@ POS Tagger is an implementation of Part-of-Speech tagging for an NLP task on the
 
 # Initial Setup
 To run the tagger model, you need Python 2.7
+It can be run as a Spyder project
 
 # Train a model
 In this repo its been trained for English & Finnish CoNLLU on LEMMA & UPOS data, sample training data can be found from corpus folder.
@@ -10,3 +11,4 @@ Run train.py file and modify the --data_path value accordingly of your language 
 
 # Tag the sentences
 python testPOS.py and provide the sentence in a Finnish language. In order to use English model, *.pkl filenames needs to be modified 
+If the word isn't present in the Vocabulary then it would display UNKNOWN_WORD
